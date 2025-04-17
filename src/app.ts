@@ -1,5 +1,5 @@
 import { BookService } from './businessLogic/bookService';
-import { PrismaBookRepository } from './dataAccess/prismaBookRepository';
+import { PrismaBookRepository } from './adapter/repositories/prismaBookRepository';
 import { BookController } from './presentation/bookController';
 import express from "express";
 
