@@ -1,5 +1,5 @@
 import { Book } from "@prisma/client";
-import { BookRepositoryInterface } from "../dataAccess/bookRepositoryInterface";
+import { BookRepositoryInterface } from "../domain/repositories/bookRepositoryInterface";
 import { BookService } from "./bookService";
 
 const mockBookRepository: jest.Mocked<BookRepositoryInterface> = {
