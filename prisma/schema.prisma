@@ -21,4 +21,9 @@ model Book {
   updatedAt DateTime @updatedAt
 }
 
-
+model User {
+  id String @id @default(uuid())
+  email String @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

@@ -4,7 +4,7 @@ export function generateEntity(name: string) {
   const content = `
 export class ${capitalize(name)} {
     constructor(
-        private readonly id: string,
+        private readonly _id: string,
         // Add other properties as needed
     ) {}
     
